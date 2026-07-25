@@ -1,8 +1,32 @@
 aid: complete
 name: Complete
-description: 'Complete is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: payments. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Complete is a compensation management platform that helps companies design,
+  manage, and communicate employee compensation with clarity — from job offers and
+  team leveling through planning, total rewards, and ongoing team monitoring. The
+  product suite includes Interactive Offers (digital offer portals for candidates),
+  Team Leveling (career progression frameworks and salary bands), Planning (spreadsheet-free
+  compensation budgeting), Total Rewards (employee-facing statements of full compensation
+  value), and Compy, a set of AI agents that automate compensation-cycle prep, offer
+  generation, band building, and rewards analysis. Complete connects to compensation
+  data through 100+ HRIS, ATS, and equity integrations (Workday, BambooHR, Gusto,
+  Rippling, Ashby, and others). The company is a portfolio company of Accel and was
+  added to the API Evangelist network as a lead for enrichment. Complete does not
+  currently publish a public developer API, developer portal, or OpenAPI; its integration
+  surface is delivered as prebuilt HRIS/ATS/equity connectors rather than a documented
+  public API.'
 url: https://raw.githubusercontent.com/api-evangelist/complete/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62e16ef1d63bf53422b973f4/6303d378ee6bafd8f4a88208_completeog.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Payments
+- Compensation
+- Human Resources
+- HR Tech
+- Total Rewards
+- Compensation Management
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.complete.so/
+- type: Blog
+  url: https://www.complete.so/blog
+- type: Integrations
+  url: https://www.complete.so/integrations
+- type: About
+  url: https://www.complete.so/about
+- type: SignUp
+  url: https://www.complete.so/request-demo
+- type: Login
+  url: https://app.complete.so/login
+- type: TermsOfService
+  url: https://www.complete.so/legal/terms
+- type: PrivacyPolicy
+  url: https://www.complete.so/legal/privacy
+- type: StatusPage
+  url: https://status.complete.so
+- type: Security
+  url: https://www.complete.so/security
+- type: Compliance
+  url: https://www.complete.so/security
+- type: TrustCenter
+  url: security/complete-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/complete-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/complete-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
